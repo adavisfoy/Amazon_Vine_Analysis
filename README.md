@@ -10,10 +10,6 @@ The purpose of this analysis was to evaluate whether or not reviews written by A
 We analyzed Amazon reviews of **Pet Products**.
 
 
-## Data Set URL
-[Amazon AWS S3](https://s3.amazonaws.com/amazon-reviews-pds/tsv/amazon_reviews_us_Pet_Products_v1_00.tsv.gz)
-
-
 ## Summary of Project Phases: 
 
 - The first phase of this project involved selecting a dataset from the Amazon Review datasets publicly available on Amazon's AWS Simple Cloud Storage (S3) solution. 
@@ -28,14 +24,18 @@ We analyzed Amazon reviews of **Pet Products**.
 
 ## Results: 
 
-Using bulleted lists and images of DataFrames as support, address the following questions:
+Analysis of the **Pet Products** data set revealed the following:
 
-- How many Vine reviews and non-Vine reviews were there?
-- How many Vine reviews were 5 stars? How many non-Vine reviews were 5 stars?
-- What percentage of Vine reviews were 5 stars? What percentage of non-Vine reviews were 5 stars?
+- There were only 170 Vine member reviews versus 37,840 non-Vine member reviews. 
+- Out of the 170 Vine reviews, there were only 65 5-star reviews. 
+- Out of 37,840 non-Vine reviews, there were 20,612 5-star reviews. 
+- This translates into approximately 38% of Vine reviews being 5-star reviews while approximately 54% of non-Vine reviews were 5-star reviews. 
+
+
 
 ## Summary: 
 
-In your summary, 
-- state if there is any positivity bias for reviews in the Vine program. Use the results of your analysis to support your statement. 
-- Then, provide one additional analysis that you could do with the dataset to support your statement.
+- Based on these results, I don't have sufficient evidence to determine if positivity bias exists for Amazon Vine reviews of pet products. While at first glance, it appears that there is no positivity bias from the Amazon Vine reviewers based on a lower percentage of 5-star reviews (38%), there were so few Amazon Vine reviews that it is hard to make this determination. 
+- In our Pet Products category, the Amazon Vine reviewers didn't even account for 1% of all reviews we analyzed after filtering the data for helpful reviews. 
+- It is interesting to note that 54% of the non-Vine reviews were 5-star reviews, which may lend additional evidence against positivity bias among Vine members. 
+- Additional analysis that could prove helpful in evaluating for positivity bias amongst Vine members would be analyzing a different data set in the same fashion. Perhaps a different product category with more Amazon Vine members reviewing products would yield different results.   
