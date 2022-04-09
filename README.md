@@ -21,6 +21,22 @@ We analyzed Amazon reviews of **Pet Products**.
   - Validated that the data was loaded into pgAdmin appropriately
 - The next phase involved exporting a csv file of the "Vine" table and then loading that data into Pandas for analysis within Jupyter Notebook  
 
+**pgAdmin Customers Table**
+
+![pgAdmin_customers_table.png](Images/pgAdmin_customers_table.png)
+
+**pgAdmin Products Table**
+
+![pgAdmin_products_table.png](Images/pgAdmin_products_table.png)
+
+**pgAdmin Review ID Table**
+
+![pgAdmin_review_id_table.png](Images/pgAdmin_review_id_table.png)
+
+**pgAdmin Vine Table**
+
+![pgAdmin_vine_table.png](Images/pgAdmin_vine_table.png)
+
 
 ## Results: 
 
