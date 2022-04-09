@@ -1,9 +1,23 @@
-# Amazon_Vine_Analysis
+# Amazon Vine Program Analysis: Pet Products
 
 
-## Overview of the analysis: Explain the purpose of this analysis.
+## Overview: 
 
-Using your knowledge of PySpark, Pandas, or SQL, you’ll determine if there is any bias towards reviews that were written as part of the Vine program. For this analysis, you'll determine if having a paid Vine review makes a difference in the percentage of 5-star reviews.
+The Amazon Vine program is a service that allows manufacturers and publishers to receive reviews for their products by paying a fee to Amazon who, in turn, provides products to Amazon Vine Members. In return for receiving the project free of charge, Amazon Vine members are required to publish a review on the Amazon Online Store. 
+
+The purpose of this analysis was to evaluate whether or not reviews written by paid Amazon Vine members translated into positivity bias (i.e. higher percentage of 5-star reviews). 
+
+## Summary of Project Phases: 
+
+- The first phase of this project involved selecting a dataset from the Amazon Review datasets publicly available on Amazon's AWS Simple Cloud Storage (S3) solution. 
+- We chose to analyze Amazon reviews of **Pet Products**
+
+## Data Set URL
+[Amazon AWS S3](https://s3.amazonaws.com/amazon-reviews-pds/tsv/amazon_reviews_us_Pet_Products_v1_00.tsv.gz)
+
+In this project, you’ll have access to approximately 50 datasets. Each one contains reviews of a specific product, from clothing apparel to wireless products. You’ll need to pick one of these datasets and use PySpark to perform the ETL process to extract the dataset, transform the data, connect to an AWS RDS instance, and load the transformed data into pgAdmin. Next, you’ll use PySpark, Pandas, or SQL to determine if there is any bias toward favorable reviews from Vine members in your dataset. Then, you’ll write a summary of the analysis for Jennifer to submit to the SellBy stakeholders.
+
+
 
 
 ## Results: 
