@@ -21,6 +21,22 @@ We analyzed Amazon reviews of **Pet Products**.
   - Validated that the data was loaded into pgAdmin appropriately
 - The next phase involved exporting a csv file of the "Vine" table and then loading that data into Pandas for analysis within Jupyter Notebook  
 
+**pgAdmin Customers Table**
+
+![pgAdmin_customers_table.png](Images/pgAdmin_customers_table.png)
+
+**pgAdmin Products Table**
+
+![pgAdmin_products_table.png](Images/pgAdmin_products_table.png)
+
+**pgAdmin Review ID Table**
+
+![pgAdmin_review_id_table.png](Images/pgAdmin_review_id_table.png)
+
+**pgAdmin Vine Table**
+
+![pgAdmin_vine_table.png](Images/pgAdmin_vine_table.png)
+
 
 ## Results: 
 
@@ -31,7 +47,7 @@ Analysis of the **Pet Products** data set revealed the following:
 - Out of 37,840 non-Vine reviews, there were 20,612 5-star reviews. 
 - This translates into approximately 38% of Vine reviews being 5-star reviews while approximately 54% of non-Vine reviews were 5-star reviews. 
 
-
+![amazon_vine_pet_products_review_summary.png](Images/amazon_vine_pet_products_review_summary.png)
 
 ## Summary: 
 
