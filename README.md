@@ -31,7 +31,7 @@ Analysis of the **Pet Products** data set revealed the following:
 - Out of 37,840 non-Vine reviews, there were 20,612 5-star reviews. 
 - This translates into approximately 38% of Vine reviews being 5-star reviews while approximately 54% of non-Vine reviews were 5-star reviews. 
 
-
+![amazon_vine_pet_products_review_summary.png](Images/amazon_vine_pet_products_review_summary.png)
 
 ## Summary: 
 
